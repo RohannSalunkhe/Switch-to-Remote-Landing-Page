@@ -51,7 +51,7 @@
 
         <div
           id="nav-dialog"
-          class="fixed z-10 lg:hidden inset-0 p-3 bg-[radial-gradient(at_right_center,_rgb(56,189,248),_rgb(49,46,129))] min-h-screen w-full text-white"
+          class="hidden fixed z-10 lg:hidden inset-0 p-3 bg-[radial-gradient(at_right_center,_rgb(56,189,248),_rgb(49,46,129))] min-h-screen w-full text-white"
         >
           <div id="nav-bar" class="flex justify-between">
             <a href="#" class="flex gap-2 items-center">
@@ -173,7 +173,6 @@
       const navDialog = document.getElementById("nav-dialog");
 
       function handleMenu() {
-        console.log("click");
         navDialog.classList.toggle("hidden");
       }
     </script>
